@@ -1,0 +1,17 @@
+.backButton {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  max-width: 60px;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.backButton:hover {
+  background: inherit;
+  scale: 1.01;
+}

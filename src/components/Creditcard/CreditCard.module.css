@@ -1,0 +1,34 @@
+.cardPreview {
+  width: 400px;
+  height: 200px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  box-shadow: 6px 6px 2px rgba(143, 143, 143, 0.521);
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.vendor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardholder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bankLogo {
+  width: 50px;
+}
+
+.cardPreview:hover {
+  scale: 1.02;
+  z-index: 99;
+}
